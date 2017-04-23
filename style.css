@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(23,37,59);
+    color: rgb(176,184,199);
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 80%
+}
+
+#map-container{
+    position: relative;
+}
+
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    position: relative;
+}
+
+footer {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
